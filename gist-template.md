@@ -121,14 +121,14 @@ Look-ahead and look-behing matches everything, in any context, and then filter b
 ### Putting it all together
 
 ```
-/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{3})$/
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 ```
 * `/^` - Start of string, or start of line in multi-line pattern
 * `([a-z0-9_\.-]+)` - will match for first word which can have `a-z`, `A-Z`, `0-9`, and the `_\.-` characters.
-* `\@` - will match the special character `@`
+* `@` - will match the special character `@`
 * `([a-zA-Z0-9]+)` - will match the word that is the domain name after '@'
 * `\.` - will match the `period (.)`.
-* `[a-z\.]{2,6}` - will match the final last word of the email and include the top-level domain name (.com, .org, .info, .de, etc.).
+* `[a-z\.]{2,6}` - will match the final last word of the email and include the top-level domain name (.com, .org, .info, .de, etc.) with at least 2 characters and a maximum of 6 characters.
 * `$` - End of string, or end of line in multi-line pattern.
 
 ## Author
