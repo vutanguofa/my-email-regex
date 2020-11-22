@@ -9,5 +9,5 @@ This tutorial will break down the components of a regex, also known as a regular
 
 ## GitHub
 
-[Link to Github repo](https://github.com/vutanguofa/my-email-regex)
-[Link to Github git](https://github.com/vutanguofa/my-email-regex)
+[Link to Github repo](https://github.com/vutanguofa/my-email-regex)<br />
+[Link to Github gist]()
