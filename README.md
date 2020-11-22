@@ -10,4 +10,4 @@ This tutorial will break down the components of a regex, also known as a regular
 ## GitHub
 
 [Link to Github repo](https://github.com/vutanguofa/my-email-regex)<br />
-[Link to Github gist]()
+[Link to Github gist](https://gist.github.com/vutanguofa/8f88f20a7efe526439365aa639136080)
